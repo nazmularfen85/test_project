@@ -1,0 +1,148 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1917837500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open Browser",
+            "match": {
+              "location": "Parabankstepdef.open_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1136236200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Go to Para Bank applicatio login page",
+            "match": {
+              "location": "Parabankstepdef.go_to_Para_Bank_applicatio_login_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-02T01:15:23.211Z",
+        "line": 10,
+        "name": "As a Para Bank user, loging should pass with valid credential",
+        "description": "",
+        "id": "login-functional-test;as-a-para-bank-user--loging-should-pass-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 139240000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Put Valid User",
+            "match": {
+              "location": "Parabankstepdef.put_Valid_User()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114350500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Put Valid Password",
+            "match": {
+              "location": "Parabankstepdef.put_Valid_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 728978100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click login button",
+            "match": {
+              "location": "Parabankstepdef.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text() \u003d\u0027Log out\u0027]\"}\n  (Session info: chrome\u003d130.0.6723.92)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.25.0\u0027, revision: \u00278a8aea2337\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [45473975d28584e598a48b01dbd196b4, findElement {using\u003dxpath, value\u003d//*[text() \u003d\u0027Log out\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\\Users\\nazmu\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56180}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56180/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 45473975d28584e598a48b01dbd196b4\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy23.isDisplayed(Unknown Source)\r\n\tat com.generic.Parabankstepdef.check_login_status_should_pass_and_log_out_button_should_visibe(Parabankstepdef.java:52)\r\n\tat ✽.Check login status should pass and log out button should visibe(file:src/main/resources/Login.feature:15)\r\n",
+              "duration": 5027987400,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "Check login status should pass and log out button should visibe",
+            "match": {
+              "location": "Parabankstepdef.check_login_status_should_pass_and_log_out_button_should_visibe()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Functional"
+          },
+          {
+            "name": "@Positive"
+          },
+          {
+            "name": "@TC_BOL12"
+          }
+        ]
+      }
+    ],
+    "name": "login functional test",
+    "description": "",
+    "id": "login-functional-test",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Login.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 8
+        }
+      },
+      {
+        "name": "@Functional",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 20
+        }
+      }
+    ]
+  }
+]
